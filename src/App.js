@@ -8,8 +8,8 @@ import AlbumPage from '../src/pages/AlbumPage/AlbumPage';
 export default function App() {
   return (
       <Routes>
-        <Route path='/'>
-          <Route path='/artist' element={<HomePage />} />
+        <Route element={<Layout />}>
+          <Route path='/' element={<HomePage />} />
           <Route path='/artist/id' element={<ArtistPage />} />
           <Route path='/artist/id/album_id' element={<AlbumPage />} />
         </Route>
