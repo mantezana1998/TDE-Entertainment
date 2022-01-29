@@ -1,0 +1,12 @@
+.side {
+    margin-top: 20%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-self: start;
+    background-color: red !important;
+}
+
+.main {
+    height: 100vh !important;
+}
