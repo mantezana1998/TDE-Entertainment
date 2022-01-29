@@ -17,6 +17,10 @@ export default function Layout (){
             
             <Box gridArea='side' className='side'>
                 <img src="https://i.imgur.com/2by6cBW.jpg" alt="TDE Logo"/>
+                <br />
+                <button class="button" role="button">Home</button>
+                <br />
+                <button class="button" role="button">Artist Name</button>
             </Box>
             <Box gridArea='main' className='main'>
                 <Outlet />
