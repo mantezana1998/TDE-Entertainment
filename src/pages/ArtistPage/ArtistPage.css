@@ -1,0 +1,18 @@
+#artist-picture {
+  border-radius: 50%;
+  margin: 5%;
+}
+
+#artist-name {
+  margin: auto;
+  margin-left: 5%;
+  font-size: 100px;
+} 
+
+#header {
+  background-color: red;
+}
+
+#footer {
+  background-color: green;
+}
