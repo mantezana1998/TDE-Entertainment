@@ -1,7 +1,8 @@
 import React from 'react';
 import './Artist.css';
 import Flexbox from 'flexbox-react';
-import ArtistHeader from '../../Artist/ArtistHeader/ArtistHeader'
+import ArtistHeader from '../../Artist/ArtistHeader/ArtistHeader';
+import Discography from '../Discography/Discography';
 
 export default function Artist(){
     return(
@@ -12,12 +13,7 @@ export default function Artist(){
             </Flexbox>
 
             <Flexbox element="footer" height="60%" id="footer" flexDirection='column'>
-                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
-                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
-                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
-                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
-                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
-                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
+                <Discography />
             </Flexbox>
         </Flexbox>
     </>

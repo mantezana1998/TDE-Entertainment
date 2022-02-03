@@ -1,7 +1,8 @@
 import React from 'react';
+import Album from '../../components/Album/Album/Album';
 
 export default function AlbumPage (){
     return(
-        <h1>Album Page</h1>
+        <Album />
     )
 }
