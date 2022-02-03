@@ -11,8 +11,13 @@ export default function ArtistPage (){
                 <h1 id="artist-name">SZA</h1>
             </Flexbox>
 
-            <Flexbox element="footer" height="60%" id="footer">
-                Footer
+            <Flexbox element="footer" height="60%" id="footer" flexDirection='column'>
+                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
+                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
+                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
+                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
+                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
+                <img src="https://i.imgur.com/e1LznTs.jpg" alt="SZA"   class="album-pic" height='200px' width='200px'/>
             </Flexbox>
         </Flexbox>
     </>
