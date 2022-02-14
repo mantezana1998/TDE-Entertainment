@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import './Layout.css'
 import Flexbox from 'flexbox-react';
 import Buttons from '../../components/Buttons/Buttons'
+import MusicPlayer from '../../components/Album/MusicPlayer/MusicPlayer';
 
 export default function Layout (){
     return(
@@ -12,6 +13,7 @@ export default function Layout (){
                 <img src="https://i.imgur.com/2by6cBW.jpg" alt="TDE Logo"/>
                 <br />
                 <Buttons />
+                <MusicPlayer />
             </Flexbox>
 
             <Flexbox width="70%" className="main">
