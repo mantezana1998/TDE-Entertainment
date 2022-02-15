@@ -27,9 +27,9 @@ export default function MusicPlayer(){
                 </div>
             
                 <div className="controls">
-                    <i id="forward" className="material-icons prev">fast_forward</i>
                     <i id="previous" className="material-icons">fast_rewind</i>
                     <i id="play-pause" className="material-icons">play_circled_full</i>
+                    <i id="forward" className="material-icons prev">fast_forward</i>
                 </div>
 
             </div>
