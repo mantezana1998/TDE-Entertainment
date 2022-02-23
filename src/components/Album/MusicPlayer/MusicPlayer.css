@@ -78,7 +78,7 @@
 
 .progress-area .progress-bar{
     height: inherit;
-    width: 0%;
+    width: 50%;
     position: relative;
     border-radius: inherit;
     background: white;
@@ -88,13 +88,14 @@
     position: absolute;
     height: 12px;
     width: 12px;
-    border-radius: 50%;
+    border-radius: inherit;
     top: 50%;
     right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 2;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-50%);
     background: inherit;
     transition: opacity 0.2s ease;
 }
@@ -108,13 +109,22 @@
     margin-top: 2px;
 }
 
-.song-timer{
-    font-size: 12px;
+.song-timer span{
+    font-size: 15px;
     color: white;
 }
 
-.controls {
+.controls{
     margin: 10% 0 0 0;
+}
+
+#play-pause{
+    transform: translateX(59%) translateY(0%);
+    width:60% !important;
+}
+
+#forward{
+    transform: translateX(-90%) translateY(0px);
 }
 
 .controls i{
@@ -122,3 +132,7 @@
     user-select: none;
 }
 
+.play-pause{
+    height: 43px;
+    
+}

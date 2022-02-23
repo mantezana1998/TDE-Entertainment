@@ -17,18 +17,18 @@ export default function MusicPlayer(){
                 </div>
 
                 <div className="progress-area">
-                    <div className="progress-bar">
-                        <audio src="" id="main-audio"></audio>
-                    </div>
+                    <div className="progress-bar"></div>
                     <div className="song-timer">
                         <span className="current-timer">0:00</span>
-                        <span className="max-duration">0:00</span>
+                        <span className="max-duration">3:50</span>
                     </div>
                 </div>
             
                 <div className="controls">
                     <i id="previous" className="material-icons">fast_rewind</i>
-                    <i id="play-pause" className="material-icons">play_circled_full</i>
+                    <div class='play-pause'>
+                        <i id="play-pause" className="material-icons">play_circled_full</i>
+                    </div>
                     <i id="forward" className="material-icons prev">fast_forward</i>
                 </div>
 
