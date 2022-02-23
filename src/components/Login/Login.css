@@ -1,0 +1,17 @@
+#spotify-logo{
+    display: block;
+    margin: 5% auto 0 auto;
+    width: 50%;
+}
+
+.oauth{
+    margin: 10%;
+    text-align: center;
+}
+
+.oauth a{
+    font-size: 70px;
+    color: white !important;
+    background-color: #1DB954;
+    border-radius: 25px;
+}

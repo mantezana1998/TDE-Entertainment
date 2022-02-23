@@ -19,8 +19,9 @@ export default function App() {
 
   return (
       <Routes>
+        <Route path='/login' element={<Login />} />
         <Route element={<Layout />}>
-          <Route path='/' element={<Login />} />
+          <Route path='/' element={<HomePage />} />
           <Route path='/artist/id' element={<ArtistPage />} />
           <Route path='/artist/id/album_id' element={<AlbumPage />} />
         </Route>
